@@ -1,7 +1,7 @@
-#### Canva custom scrollbar script
+#### Canva.com custom scrollbar script
 
 ##### Description
-A Tampermonkey user script to customize the size and colors of the scrollbars on Canva in order to make them more visually distinguishable.
+A Tampermonkey user script to customize the size and colors of the scrollbars on Canva.com in order to make them more visually distinguishable.
 
 Tampermonkey is a browser extension (Chrome, Edge,..) used to load scripts onto webpages on the fly. This can be useful to change the CSS and JavaScript behavior on a website to your liking.
 
