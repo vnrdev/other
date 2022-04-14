@@ -9,7 +9,7 @@ Tampermonkey is a browser extension (Chrome, Edge,..) used to load scripts onto 
 On the Tampermonkey extension, simply:
 - create a new script
 - replace the existing code with the code found here in Canva.user.js
-- save your file (control + s or File -> Save inside the script window
+- save your file (control + s or File -> Save inside the script window)
 - if the script is working, you will see a red [1] marked on the icon of your Tampermonkey extension in your browser bar
 
 
