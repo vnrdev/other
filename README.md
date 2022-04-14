@@ -1,2 +1,8 @@
-# other
-Miscellaneous
+#### Other
+
+Miscellaneous applications and snippets.
+
+
+
+
+
