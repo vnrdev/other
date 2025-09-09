@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+#root {
+  margin: auto;
+}
+
+.todo-item {
+  background-color: lightslategray;
+  color: antiquewhite;
+}
