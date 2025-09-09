@@ -5,13 +5,12 @@
 
 A simple todo list I created with vite, with the goal of learning React through applying my knowledge.
 
+![demo.gif](screenshots/demo.gif)
+
 Technologies used:
 - React 19
 - vite 7
 - Tailwindcss 4
-
-(refresh the page to see the gif below in action)
-![demo.gif](screenshots/demo.gif)
 
 ## Lessons learned
 
