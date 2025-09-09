@@ -10,6 +10,7 @@ Technologies used:
 - vite 7
 - Tailwindcss 4
 
+(refresh the page to see the gif below in action)
 ![demo.gif](screenshots/demo.gif)
 
 ## Lessons learned
