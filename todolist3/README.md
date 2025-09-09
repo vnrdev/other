@@ -10,6 +10,8 @@ Technologies used:
 - vite 7
 - Tailwindcss 4
 
+![demo.gif](screenshots/demo.gif)
+
 ## Lessons learned
 
 - How to setup react + vite + tailwindcss
