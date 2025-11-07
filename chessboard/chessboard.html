@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>chess</title>
+</head>
+
+<body>
+<h1>CHESSBOARD</h1>
+<div id="output"></div>
+
+<script>
+let ROWS = 8;
+let COLS = 8;
+let squareWidth = 100;
+let squareHeight = 100;
+let output = document.getElementById("output");
+output.style.position = "relative";
+output.style.width = ROWS * squareWidth + 1 + "px";
+output.style.height = ROWS * squareHeight + 1 + "px";
+output.style.border = "2px solid black";
+output.style.margin = "auto";
+document.getElementsByTagName("h1")[0].style.textAlign = "center";
+
+for(let rows = 0; rows < ROWS; rows++) {
+	console.log(`rows: ${rows}, ROWS: ${ROWS}`);
+	for(let cols = 0; cols < COLS; cols++) {
+		let square = document.createElement("div");
+		square.style.position = "absolute";
+		square.style.left = (cols * squareWidth) + "px";
+		square.style.top = (rows * squareHeight) + "px";
+		square.style.width = squareWidth + "px";
+		square.style.height = squareHeight + "px";
+
+		if(rows % 2 !=0) {
+			if(cols % 2 != 0) {
+				square.style.backgroundColor = "black";
+			} else {
+				square.style.backgroundColor = "white";
+			}
+		}
+		else if(rows % 2 == 0) {
+			if(cols % 2 != 0){
+				square.style.backgroundColor = "white";
+			} else {
+				square.style.backgroundColor = "black";
+			}			
+		} 
+		square.style.border = "1px solid black";
+		output.appendChild(square);		
+	}
+	
+}
+</script>
+
+</body>
+
+</html>
