@@ -1,4 +1,4 @@
 ### Chessboard
 A simple chessboard.
 
-![screenshot](/screenshots/screenshot.png)
+![screenshot](screenshots/screenshot.png)
